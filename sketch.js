@@ -1,7 +1,8 @@
+
 var egg;
 
 function preload() {
-  egg = loadImage("egg.png");
+  egg = loadImage("images/egg.png");
 }
 
 function setup() {
