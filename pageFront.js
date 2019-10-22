@@ -1,6 +1,12 @@
+var earth;
+
+function preload() {
+  egg = loadImage("media/spinningEarth.gif");
+}
+
 function setup() {
 
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, 800);
 
   background(50, 80, 200, 40);
 
