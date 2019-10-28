@@ -1,7 +1,6 @@
 var earth;
 var earthTwo;
 var earthHug;
-let song;
 
 function preload() {
   earth = loadImage("media/earth.png");
@@ -16,8 +15,6 @@ function setup() {
   background(50, 80, 200, 40);
 
   imageMode(CENTER);
-
-  song = loadSound
 
 }
 
@@ -58,5 +55,5 @@ function draw() {
   image(earthTwo, ((windowWidth/2)-300), 500, 400, 300);
 
   image(earthHug, (windowWidth/2), 420, 567, 700);
-  
+
 }
