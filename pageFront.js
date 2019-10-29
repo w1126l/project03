@@ -13,7 +13,7 @@ function setup() {
 
   createCanvas(windowWidth, 800);
 
-  background(50, 80, 200, 40);
+  background(50, 80, 200, 50);
 
   imageMode(CENTER);
 
