@@ -1,3 +1,4 @@
+
 var earth;
 var earthTwo;
 var earthHug;
@@ -15,6 +16,10 @@ function setup() {
   background(50, 80, 200, 40);
 
   imageMode(CENTER);
+
+  link = createA("https://w1126l.github.io/project03/pageEarth.html",
+                       "More Earth :)");
+  link.position(CENTER, CENTER);
 
 }
 
@@ -38,7 +43,7 @@ function draw() {
   strokeWeight(0.5);
 
   textAlign(CENTER, CENTER);
-  text('EARTH', 0, 80, width);
+  text("Earth!!!", 0, 80, width);
 
   image(earth, ((windowWidth/2)+150), 700, 160, 120);
   image(earth, ((windowWidth/2)+200), 430, 240, 180);
